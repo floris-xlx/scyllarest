@@ -7,6 +7,10 @@ pub mod client;
 pub mod materialized_view;
 pub mod index;
 pub mod auth;
+pub mod rest;
+pub mod success;
+pub mod errors;
+
 
 use scylla::Session;
 
